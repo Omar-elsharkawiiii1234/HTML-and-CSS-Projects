@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- starting header      -->
+    <header>
+        <!-- navbar  -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#course">Courses</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- end navbar  -->
+        <!-- header body  -->
+        <div class="header-body" id="home">
+            <h1>Welcome to Our Web Design Courses</h1>
+            <p>Learn web design from the basics to advanced techniques with our comprehensive courses.</p>
+            <a href="#contact" class="btn">Get Started</a>
+    </header>
+    <!-- ending header      -->
+
+    <!-- starting main section  -->
+    <section>
+        <h1 id="course">Our Courses</h1>
+        <div class="courses">
+            <div class="course">
+                <h2>Introduction to Web Design</h2>
+                <p>Get started with the basics of web design, including layout, color theory, and typography.</p>
+                <a href="#contact" class="btn">Enroll Now</a>
+            </div>
+            <div class="course">
+                <h2>HTML & CSS Basics</h2>
+                <p>Learn the fundamentals of web design with HTML and CSS.</p>
+                <a href="#contact" class="btn">Enroll Now</a>
+            </div>
+            <div class="course">
+                <h2>JavaScript Essentials</h2>
+                <p>Master the basics of JavaScript to add interactivity to your websites.</p>
+                <a href="#contact" class="btn">Enroll Now</a>
+            </div>
+            <div class="course">
+                <h2>Responsive Design</h2>
+                <p>Create websites that look great on all devices with responsive design techniques.</p>
+                <a href="#contact" class="btn">Enroll Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- ending main section  -->
+
+    <!-- starting testimonials section  -->
+    <div class="test-section">
+        <h1 id="testimonials">Student Testimonials</h1>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"This course changed my life! I went from knowing nothing about web design to landing my first job in
+                    just a few months."</p>
+                <h3>- Jane Doe</h3>
+            </div>
+            <div class="testimonial">
+                <p>"I loved the hands-on approach of the courses. I was able to build my own projects and gain real
+                    experience."</p>
+                <h3>- Emily Johnson</h3>
+            </div>
+
+        </div>
+    </div>
+    <!-- ending testimonials section  -->
+
+     <!-- starting contact section  --> 
+      <div class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    <!-- ending contact section  -->
+
+    <!-- starting footer section  -->
+    <footer>
+        <p>&copy; 2025 Web Design Courses. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
